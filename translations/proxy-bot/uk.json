@@ -1,0 +1,271 @@
+{
+  "lang": {
+    "en": "English",
+    "ru": "Русский",
+    "uk": "Українська",
+    "panel": "Мова інтерфейсу",
+    "bot": "Мова бота (за замовчуванням)",
+    "hint": "Мова панелі — веб-інтерфейс. Мова бота — Telegram; кожен адмін може змінити в боті: Налаштування → Мова.",
+    "switch": "Мова",
+    "menu_title": "Мова"
+  },
+  "settings": {
+    "date_format": "Формат дати й часу",
+    "date_format_hint": "Таблиці, картки проксі, логи та графіки статистики. Приклад:"
+  },
+  "dashboard": {
+    "in_db": "В БАЗІ",
+    "server_stats": "Статистика сервера",
+    "cpu": "Процесор",
+    "ram": "ОЗП",
+    "disk": "Диск",
+    "daily_stats": "Статистика за добу (0:00 {tz})",
+    "new": "НОВИХ",
+    "deleted": "видалено {count}",
+    "sources": "ДЖЕРЕЛА",
+    "sources_sub": "MT {mt} · V2 {v2}",
+    "telethon": "TELETHON",
+    "telethon_sub": "−{count} вихід",
+    "schedule": "Розклад бота",
+    "autopost": "Автопост",
+    "interval": "Інтервал",
+    "interval_unit": "хв",
+    "quiet_mode": "Тихий режим",
+    "autopost_today": "Автопост сьогодні",
+    "posts_count": "{count} пост.",
+    "subs_refresh": "Оновити з Telegram",
+    "subs_cache": "кеш",
+    "subs_per_day": "за добу",
+    "no_channel": "немає CHANNEL_ID",
+    "title": "Дашборд",
+    "main_stats": "Основна статистика",
+    "mtproto_total": "усього проксі",
+    "working": "РОБОЧИХ",
+    "working_sub": "{pct}% від усіх",
+    "channel_posts": "ПОСТІВ СЬОГОДНІ",
+    "channel_posts_sub": "повідомлень у канал",
+    "subscribers": "ПІДПИСНИКИ",
+    "v2ray_alive": "ЖИВИХ",
+    "v2ray_sub": "з {total}",
+    "dead": "МЕРТВИХ",
+    "dead_sub": "MTProto неробочих"
+  },
+  "toggle": {
+    "on": "Увімк",
+    "off": "Вимк"
+  },
+  "nav": {
+    "dashboard": "Дашборд",
+    "statistics": "Статистика",
+    "proxies": "Проксі",
+    "v2ray": "V2Ray",
+    "subscription": "Підписка",
+    "publications": "Публікації",
+    "upload": "Імпорт",
+    "logs": "Логи",
+    "settings": "Налаштування",
+    "settings_basic": "Основні",
+    "settings_collector": "Збірник",
+    "settings_upload": "Завантаження проксі",
+    "updates": "Оновлення",
+    "logout": "Вийти"
+  },
+  "login": {
+    "title": "Вхід у панель",
+    "password": "Пароль",
+    "submit": "Увійти",
+    "yandex_hint": "Панель на порту {port}. Яндекс.Браузер може прибрати порт — використовуйте Chrome, Firefox або Edge.",
+    "bookmark": "Закладка"
+  },
+  "panel": {
+    "title": "Панель"
+  },
+  "common": {
+    "save": "Зберегти",
+    "copy": "Копіювати",
+    "copied": "Скопійовано",
+    "filter": "Фільтр",
+    "reset": "Скинути",
+    "all": "Усі",
+    "records": "{count} записів"
+  },
+  "stats": {
+    "title": "Статистика",
+    "period": "Період",
+    "period_week": "Тиждень",
+    "period_month": "Місяць",
+    "period_all": "З початку",
+    "period_custom": "Свій період",
+    "apply": "Показати",
+    "chart_subscribers": "Підписники каналу (Telegram)",
+    "chart": {
+      "subscribers_line": "Підписники каналу",
+      "unsubscribers_line": "Відписалися (за день)"
+    },
+    "chart_proxies": "Проксі: додано / видалено",
+    "chart_subscription": "Клієнти підписки V2Ray (унікальні IP)",
+    "totals": {
+      "subscribers": "Підписники (на кінець)",
+      "sub_clients": "Нові IP підписки",
+      "deleted": "видалено",
+      "published": "публікацій"
+    }
+  },
+  "proxies": {
+    "title": "Проксі MTProto",
+    "add_manual": "Додати вручну",
+    "add_btn": "Додати",
+    "add_bulk_title": "Пакетом (10–20+ посилань)",
+    "add_bulk_hint": "Вставте tg://proxy або https://t.me/proxy — по одному на рядок. Перевірка у фоні.",
+    "add_bulk_btn": "Додати пакетом",
+    "ping_all": "Пінг усіх",
+    "clean": "Чистка",
+    "search_ph": "Пошук: сервер, порт, secret, джерело, ID…",
+    "filter": {
+      "all_status": "Усі статуси"
+    },
+    "empty": "Немає записів"
+  },
+  "v2ray": {
+    "title": "V2Ray проксі",
+    "check_all": "Перевірити всі",
+    "install_xray": "Встановити xray",
+    "exit_country": "Країна виходу",
+    "exit_country_hint": "Спочатку з #фрагмента, потім через проксі",
+    "countries_fast": "Країни (швидко)",
+    "countries_fast_hint": "Вхід по хосту + вихід з #фрагмента",
+    "rebuild_names": "Імена в посиланнях",
+    "rebuild_names_hint": "Фрагмент без зайвого",
+    "rebuild_names_geo": "Імена за GeoIP",
+    "rebuild_names_geo_hint": "Перезібрати #назву за країною виходу з перевірки",
+    "label_match_hint": "Збіг #назви та GeoIP при перевірці",
+    "label_match": {
+      "all": "Усі назви",
+      "hide_mismatch": "Сховати: назва ≠ перевірка",
+      "only_mismatch": "Лише розбіжності"
+    },
+    "add_title": "Додати і перевірити",
+    "add_hint": "TCP-пінг обов'язковий (крім hysteria2/hy2 — перевірка через hysteria). Вихід часто в посиланні: …#🇳🇱. Без пінга — видалення.",
+    "add_bulk_title": "Пакетом (10–20+ посилань)",
+    "add_bulk_hint": "Посилання vless/vmess/trojan/ss/hysteria2/hy2 — по рядку або підписка (base64). Кілька посилань у полі теж розпізнаються. Перевірка у фоні.",
+    "add_bulk_btn": "Додати пакетом",
+    "search_ph": "Пошук URL, IP, країна, джерело, ID…",
+    "filter": {
+      "all_types": "Усі типи"
+    },
+    "country_ph": "Країна (RU, Україна…)",
+    "empty": "Немає V2Ray проксі"
+  },
+  "proxy": {
+    "mtproto": {
+      "title": "Проксі #{id} — {server}",
+      "edit_title": "Редагування MTProto #{id}"
+    },
+    "v2ray": {
+      "title": "V2Ray #{id} — {label}",
+      "edit_title": "Редагування V2Ray #{id}"
+    },
+    "field": {
+      "protocol": "Протокол",
+      "uri": "Посилання (URI)",
+      "server_port": "Сервер:Порт",
+      "server": "Сервер",
+      "port": "Порт",
+      "status": "Працездатність",
+      "latency": "Затримка",
+      "tcp": "TCP",
+      "name_in_link": "Назва в посиланні",
+      "name_in_link_hint": "Текст після # в URI — як підписало джерело (може бути каскад 🇸🇨 → 🇩🇪)",
+      "declared_exit": "Країна в назві (вихід)",
+      "declared_exit_hint": "Код країни після → у назві; якщо стрілки нема — єдиний прапор у #",
+      "country_mismatch": "не збігається з перевіркою",
+      "country_mismatch_hint": "У назві одна країна виходу, GeoIP при перевірці показав іншу — часто у безплатних списках",
+      "declared_country": "Країна в назві",
+      "declared_country_hint": "З #фрагмента посилання (прапор/текст в кінці URI)",
+      "real_ip": "IP виходу",
+      "real_ip_hint": "Зовнішній IP при перевірці через проксі",
+      "exit_country": "Країна виходу",
+      "exit_country_hint": "GeoIP за IP виходу (не плутати з назвою в посиланні)",
+      "real_country": "Країна виходу",
+      "route": "Вхід → вихід",
+      "sub_whitelist": "Білий список підписки",
+      "sub_personal": "Індивідуальна підписка",
+      "source": "Джерело",
+      "last_check": "Остання перевірка",
+      "added_at": "Дата додавання"
+    },
+    "status": {
+      "alive": "Живий",
+      "dead": "Мертвий",
+      "alive_short": "жив",
+      "dead_short": "мертв",
+      "tcp": "Живий (TCP)",
+      "tcp_short": "жив TCP",
+      "tcp_hint": "Порт відкритий; xray не перевіряв протокол (формат не підтримується)"
+    },
+    "action": {
+      "back": "Назад до списку",
+      "cancel": "До картки",
+      "edit": "Редагувати",
+      "check": "Перевірити пінг і доступність",
+      "update_country": "Оновити назву за країною",
+      "rebuild_name": "Ім'я в посиланні",
+      "delete": "Видалити"
+    },
+    "confirm": {
+      "delete": "Видалити проксі?"
+    },
+    "flash": {
+      "saved": "Збережено",
+      "deleted": "Проксі видалено",
+      "duplicate": "Такий проксі вже є",
+      "invalid": "Невірні дані",
+      "invalid_url": "Невірне посилання",
+      "not_found": "Проксі не знайдено",
+      "check_ok": "OK: {ping} мс",
+      "check_ok_detail": "OK: {country} | IP: {ip} | {ping} мс",
+      "check_fail": "Проксі не відповідає",
+      "deleted_no_ping": "Видалено — немає TCP-пінга",
+      "country_updated": "Країну оновлено",
+      "name_rebuilt": "Ім'я в посиланні оновлено",
+      "name_skip": "Ім'я не змінилось",
+      "error": "Помилка"
+    }
+  },
+  "bot": {
+    "btn": {
+      "status": "📊 Статус",
+      "settings": "🔧 Налаштування",
+      "add_proxy": "➕ Додати проксі",
+      "test_post": "📤 Тестовий пост",
+      "channel_pub": "📢 У канал",
+      "collector": "🔄 Запустити збірник",
+      "clean_db": "🛠 Чистка бази",
+      "stats": "📈 Статистика",
+      "auto_proxy": "🔁 Автопроксі бота",
+      "parser": "📡 Парсер каналів",
+      "help": "❓ Допомога",
+      "channel": "📡 Канал",
+      "bot_proxy": "🌐 Проксі бота",
+      "check_on": "✅ Перевірка: УВІМК",
+      "check_off": "❌ Перевірка: ВИМК",
+      "channel_link": "🔗 Посилання каналу",
+      "schedule": "⏰ Розклад",
+      "timezone": "🕒 Часовий пояс",
+      "language": "🌐 Мова",
+      "back": "🔙 Назад",
+      "tg_proxy": "📎 Telegram проксі",
+      "multi_proxy": "📦 Кілька проксі",
+      "standard_proxy": "🔗 Стандартний проксі"
+    },
+    "msg": {
+      "welcome": "👋 Вітаємо!\n\n📊 Швидкий статус:\n• Канал: {channel}\n• Проксі бота: {proxy}\n• Перевірка: {check}\n• Посилання: {link}\n• Часовий пояс: {tz}\n\nКнопки нижче:",
+      "settings_menu": "🔧 Меню налаштувань",
+      "lang_pick": "Оберіть мову бота:",
+      "lang_saved": "✅ Мова: {lang}",
+      "not_configured": "❌ Не налаштовано",
+      "enabled": "✅ Увімкнено",
+      "disabled": "❌ Вимкнено"
+    }
+  }
+}

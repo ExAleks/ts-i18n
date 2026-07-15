@@ -1,4 +1,4 @@
-import { computed, ref, type Ref, type App, type Plugin } from 'vue';
+import { inject, computed, ref, type Ref, type App, type Plugin } from 'vue';
 import { I18n, type Translations } from './index';
 
 export interface VueI18nOptions {
@@ -30,8 +30,10 @@ export function createI18n(options: VueI18nOptions) {
     }
   };
 
-  const t = (key: string, params?: Record<string, string | number>) =>
-    i18n.t(key, params);
+  const t = (key: string, params?: Record<string, string | number>) => {
+    void lang.value;
+    return i18n.t(key, params);
+  };
 
   const plugin: Plugin = {
     install(app: App) {
@@ -46,12 +48,10 @@ export function createI18n(options: VueI18nOptions) {
 }
 
 export function useI18n() {
-  const i18n = inject<I18nContext>('i18n');
-  if (!i18n) throw new Error('useI18n must be used after app.use(i18n.plugin)');
-  return i18n;
+  const ctx = inject<I18nContext>('i18n');
+  if (!ctx) throw new Error('useI18n must be used after app.use(i18n.plugin)');
+  return ctx;
 }
-
-import { inject } from 'vue';
 
 interface I18nContext {
   i18n: I18n;
