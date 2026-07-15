@@ -527,5 +527,131 @@
   },
   "test": {
     "auth_first": "Please authorize first"
+  },
+  "model": {
+    "builtin": {
+      "name": "Built-in (no API)",
+      "description": "Simple responder, works without keys"
+    },
+    "gemini": {
+      "name": "Google Gemini 2.0 Flash",
+      "description": "Fast and quality model from Google"
+    },
+    "groq": {
+      "name": "GPT-OSS 120B (Groq)",
+      "description": "OpenAI open-source 120B, lightning speed"
+    },
+    "groq-small": {
+      "name": "GPT-OSS 20B (Groq)",
+      "description": "OpenAI open-source 20B, even faster"
+    },
+    "groq-llama-3.1-8b": {
+      "name": "Llama 3.1 8B (Groq)",
+      "description": "Fast, 14.4K requests/day free"
+    },
+    "groq-llama-4-scout": {
+      "name": "Llama 4 Scout 17B (Groq)",
+      "description": "Llama 4 MoE, 128K context"
+    },
+    "groq-qwen3-32b": {
+      "name": "Qwen3 32B (Groq)",
+      "description": "Alibaba Qwen3, 60 RPM free"
+    },
+    "hy3": {
+      "name": "Tencent Hy3 (OpenRouter)",
+      "description": "#1 by traffic, MoE 295B"
+    },
+    "nemotron-ultra": {
+      "name": "NVIDIA Nemotron 3 Ultra (OpenRouter)",
+      "description": "550B MoE, 1M context"
+    },
+    "nemotron-super": {
+      "name": "NVIDIA Nemotron 3 Super (OpenRouter)",
+      "description": "120B MoE, fast"
+    },
+    "laguna": {
+      "name": "Poolside Laguna M.1 (OpenRouter)",
+      "description": "Coding agent, 256K context"
+    },
+    "gemma4": {
+      "name": "Google Gemma 4 31B (OpenRouter)",
+      "description": "Multimodal, 256K context"
+    },
+    "gpt-oss-or": {
+      "name": "OpenAI GPT-OSS 120B (OpenRouter)",
+      "description": "117B MoE from OpenAI"
+    },
+    "deepseek-r1": {
+      "name": "DeepSeek R1 (OpenRouter)",
+      "description": "Reasoning model, math, logic"
+    },
+    "deepseek-v3": {
+      "name": "DeepSeek V3 (OpenRouter)",
+      "description": "Universal model, strong"
+    },
+    "llama4-scout": {
+      "name": "Meta Llama 4 Scout (OpenRouter)",
+      "description": "10M context, largest free model"
+    },
+    "llama3.3-70b": {
+      "name": "Llama 3.3 70B (OpenRouter)",
+      "description": "Universal, 128K context"
+    },
+    "qwen3-coder": {
+      "name": "Qwen3 Coder 480B (OpenRouter)",
+      "description": "Best free coding model, 262K"
+    },
+    "mistral-small-or": {
+      "name": "Mistral Small 24B (OpenRouter)",
+      "description": "EU hosting, 128K context"
+    },
+    "trinity-large": {
+      "name": "Arcee Trinity Large (OpenRouter)",
+      "description": "Frontier-scale open-weight model"
+    },
+    "free-router": {
+      "name": "Free Router (OpenRouter)",
+      "description": "Auto-selects best free model"
+    },
+    "big-pickle": {
+      "name": "Big Pickle (OpenRouter)",
+      "description": "Llama 3.1 8B fine-tune, free"
+    },
+    "north-mini-code": {
+      "name": "North Mini Code Free (OpenRouter)",
+      "description": "Small coding model, free"
+    },
+    "hf-llama": {
+      "name": "Llama 3.1 8B (HuggingFace)",
+      "description": "Llama via HuggingFace"
+    },
+    "hf-mistral": {
+      "name": "Mistral 7B (HuggingFace)",
+      "description": "Mistral 7B via HuggingFace"
+    },
+    "cerebras-gpt-oss": {
+      "name": "GPT-OSS 120B (Cerebras)",
+      "description": "~3000 tok/s, OpenAI open-source 120B"
+    },
+    "cerebras-gemma4": {
+      "name": "Gemma 4 31B (Cerebras)",
+      "description": "~1850 tok/s, Google Gemma 4"
+    },
+    "cerebras-glm47": {
+      "name": "Z.ai GLM 4.7 (Cerebras)",
+      "description": "~1000 tok/s, 355B params"
+    },
+    "mistral-large": {
+      "name": "Mistral Large (Mistral)",
+      "description": "Flagship Mistral model, free"
+    },
+    "mistral-small": {
+      "name": "Mistral Small (Mistral)",
+      "description": "Fast and lightweight, free"
+    },
+    "codestral": {
+      "name": "Codestral (Mistral)",
+      "description": "Mistral coding model, free"
+    }
   }
 }

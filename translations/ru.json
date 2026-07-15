@@ -527,5 +527,131 @@
   },
   "test": {
     "auth_first": "Сначала авторизуйтесь"
+  },
+  "model": {
+    "builtin": {
+      "name": "Встроенная (без API)",
+      "description": "Простой ответчик, работает без ключей"
+    },
+    "gemini": {
+      "name": "Google Gemini 2.0 Flash",
+      "description": "Быстрая и качественная модель от Google"
+    },
+    "groq": {
+      "name": "GPT-OSS 120B (Groq)",
+      "description": "OpenAI open-source 120B, молниеносная скорость"
+    },
+    "groq-small": {
+      "name": "GPT-OSS 20B (Groq)",
+      "description": "OpenAI open-source 20B, ещё быстрее"
+    },
+    "groq-llama-3.1-8b": {
+      "name": "Llama 3.1 8B (Groq)",
+      "description": "Быстрый, 14.4K запросов/день бесплатно"
+    },
+    "groq-llama-4-scout": {
+      "name": "Llama 4 Scout 17B (Groq)",
+      "description": "Llama 4 MoE, 128K контекст"
+    },
+    "groq-qwen3-32b": {
+      "name": "Qwen3 32B (Groq)",
+      "description": "Alibaba Qwen3, 60 RPM бесплатно"
+    },
+    "hy3": {
+      "name": "Tencent Hy3 (OpenRouter)",
+      "description": "1 место по трафику, MoE 295B"
+    },
+    "nemotron-ultra": {
+      "name": "NVIDIA Nemotron 3 Ultra (OpenRouter)",
+      "description": "550B MoE, 1M контекст"
+    },
+    "nemotron-super": {
+      "name": "NVIDIA Nemotron 3 Super (OpenRouter)",
+      "description": "120B MoE, быстрый"
+    },
+    "laguna": {
+      "name": "Poolside Laguna M.1 (OpenRouter)",
+      "description": "Кодинг агент, 256K контекст"
+    },
+    "gemma4": {
+      "name": "Google Gemma 4 31B (OpenRouter)",
+      "description": "Мультимодальная, 256K контекст"
+    },
+    "gpt-oss-or": {
+      "name": "OpenAI GPT-OSS 120B (OpenRouter)",
+      "description": "117B MoE от OpenAI"
+    },
+    "deepseek-r1": {
+      "name": "DeepSeek R1 (OpenRouter)",
+      "description": "Reasoning модель, математика, логика"
+    },
+    "deepseek-v3": {
+      "name": "DeepSeek V3 (OpenRouter)",
+      "description": "Универсальная модель, сильная"
+    },
+    "llama4-scout": {
+      "name": "Meta Llama 4 Scout (OpenRouter)",
+      "description": "10M контекст, самый большой бесплатный"
+    },
+    "llama3.3-70b": {
+      "name": "Llama 3.3 70B (OpenRouter)",
+      "description": "Универсальная, 128K контекст"
+    },
+    "qwen3-coder": {
+      "name": "Qwen3 Coder 480B (OpenRouter)",
+      "description": "Лучшая бесплатная модель для кода, 262K"
+    },
+    "mistral-small-or": {
+      "name": "Mistral Small 24B (OpenRouter)",
+      "description": "EU-хостинг, 128K контекст"
+    },
+    "trinity-large": {
+      "name": "Arcee Trinity Large (OpenRouter)",
+      "description": "Frontier-scale open-weight модель"
+    },
+    "free-router": {
+      "name": "Free Router (OpenRouter)",
+      "description": "Автовыбор бесплатной модели"
+    },
+    "big-pickle": {
+      "name": "Big Pickle (OpenRouter)",
+      "description": "Llama 3.1 8B fine-tune, бесплатно"
+    },
+    "north-mini-code": {
+      "name": "North Mini Code Free (OpenRouter)",
+      "description": "Малая модель для кода, бесплатно"
+    },
+    "hf-llama": {
+      "name": "Llama 3.1 8B (HuggingFace)",
+      "description": "Llama через HuggingFace"
+    },
+    "hf-mistral": {
+      "name": "Mistral 7B (HuggingFace)",
+      "description": "Mistral 7B через HuggingFace"
+    },
+    "cerebras-gpt-oss": {
+      "name": "GPT-OSS 120B (Cerebras)",
+      "description": "~3000 tok/s, OpenAI open-source 120B"
+    },
+    "cerebras-gemma4": {
+      "name": "Gemma 4 31B (Cerebras)",
+      "description": "~1850 tok/s, Google Gemma 4"
+    },
+    "cerebras-glm47": {
+      "name": "Z.ai GLM 4.7 (Cerebras)",
+      "description": "~1000 tok/s, 355B параметров"
+    },
+    "mistral-large": {
+      "name": "Mistral Large (Mistral)",
+      "description": "Флагманская модель Mistral, бесплатно"
+    },
+    "mistral-small": {
+      "name": "Mistral Small (Mistral)",
+      "description": "Быстрая и лёгкая, бесплатно"
+    },
+    "codestral": {
+      "name": "Codestral (Mistral)",
+      "description": "Модель для кода от Mistral, бесплатно"
+    }
   }
 }
