@@ -1,0 +1,36 @@
+{
+  "_lang": "ru",
+  "nav": {
+    "home": "Главная",
+    "dashboard": "Дашборд",
+    "auth": "Авторизация",
+    "proxy": "Прокси",
+    "logs": "Логи",
+    "settings": "Настройки"
+  },
+  "auth": {
+    "title": "Авторизация",
+    "send_code": "Отправить код",
+    "qr_login": "Запустить QR-логин",
+    "confirm": "Подтвердить",
+    "login": "Войти",
+    "logout": "Выйти",
+    "code_sent": "Код отправлен на",
+    "code_placeholder": "Код из Telegram",
+    "need_2fa": "Если нужен 2FA:",
+    "password_2fa": "Пароль 2FA",
+    "scan_qr": "Отсканируйте QR:",
+    "check_status": "Проверить статус",
+    "logged_in_as": "Авторизован как",
+    "welcome": "Привет, {name}!"
+  },
+  "common": {
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "not_configured": "Не настроен",
+    "none": "(нет)"
+  }
+}

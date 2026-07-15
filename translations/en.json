@@ -1,0 +1,36 @@
+{
+  "_lang": "en",
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "auth": "Authorization",
+    "proxy": "Proxy",
+    "logs": "Logs",
+    "settings": "Settings"
+  },
+  "auth": {
+    "title": "Authorization",
+    "send_code": "Send code",
+    "qr_login": "Start QR login",
+    "confirm": "Confirm",
+    "login": "Log in",
+    "logout": "Log out",
+    "code_sent": "Code sent to",
+    "code_placeholder": "Code from Telegram",
+    "need_2fa": "If 2FA is required:",
+    "password_2fa": "2FA password",
+    "scan_qr": "Scan the QR:",
+    "check_status": "Check status",
+    "logged_in_as": "Logged in as",
+    "welcome": "Hello, {name}!"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "not_configured": "Not configured",
+    "none": "(none)"
+  }
+}

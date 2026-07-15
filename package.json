@@ -1,0 +1,44 @@
+{
+  "name": "ts-i18n",
+  "version": "1.0.0",
+  "description": "Lightweight i18n module: TypeScript core + React/Vue adapters, JSON translations, localStorage persistence",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js",
+      "require": "./dist/react.js"
+    },
+    "./vue": {
+      "types": "./dist/vue.d.ts",
+      "import": "./dist/vue.js",
+      "require": "./dist/vue.js"
+    }
+  },
+  "files": [
+    "dist",
+    "translations"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true },
+    "react-dom": { "optional": true },
+    "vue": { "optional": true }
+  },
+  "keywords": ["i18n", "internationalization", "translation", "localization", "react", "vue", "typescript"],
+  "license": "MIT"
+}
